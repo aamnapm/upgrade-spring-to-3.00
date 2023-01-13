@@ -88,7 +88,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
 </dependency>
 ```
 ```
-# paset it in yml or properties
+# paste it in yml or properties
 spring:
   springdoc:
     swagger-ui:
