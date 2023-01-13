@@ -71,10 +71,6 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
     <version>2.0.2</version>
 </dependency>
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-validation</artifactId>
-</dependency>
-<dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-ui</artifactId>
     <version>1.6.14</version>
