@@ -18,7 +18,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
 </properties>
 ```
 
-### And increase maven-compiler-plugin to 1.10.1
+### And increase maven-compiler-plugin to 3.10.1
 ```
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
