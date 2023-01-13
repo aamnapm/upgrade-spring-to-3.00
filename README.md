@@ -2,7 +2,7 @@
 If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like below. I wrote some note in below file please read  and do it
 
 # After a year i decided to update my project and use new version of dependencies, But I was injured :joy:	
-## At first increase spring parent to 3.0.0
+### At first increase spring parent to 3.0.0
 ```
 <parent>
     <groupId>org.springframework.boot</groupId>
@@ -11,14 +11,14 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
     <relativePath/>
 </parent>
 ```
-## Then increase Java version to 17
+### Then increase Java version to 17
 ```
 <properties>
     <java.version>17</java.version>
 </properties>
 ```
 
-## And increase maven-compiler-plugin to 1.10.1
+### And increase maven-compiler-plugin to 1.10.1
 ```
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -30,7 +30,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
     </configuration>
 </plugin>
 ```
-## If you use @Entity or @Table etc. you should change your import from import `javax.persistence.*;` to `jakarta.persistence.*;`.
+### If you use @Entity or @Table etc. you should change your import from import `javax.persistence.*;` to `jakarta.persistence.*;`.
 <!--It's for POJO etc. and use in Entity classes -->
 <dependency>
     <groupId>jakarta.persistence</groupId>
@@ -39,7 +39,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
 </dependency>
 ```
 
-## If you use @NotBlank or @NotNull etc. you should change your import from import `javax.persistence.*;` to `jakarta.persistence.*;`.
+### If you use @NotBlank or @NotNull etc. you should change your import from import `javax.persistence.*;` to `jakarta.persistence.*;`.
 ```
 <!--It's for @NotNull etc. and use in DTO classes -->
 <dependency>
@@ -50,7 +50,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
 
 ```
 
-## If you use `HttpServletRequest` object in Controller you should use below dependency.
+### If you use `HttpServletRequest` object in Controller you should use below dependency.
 ```
 <!--It's for HttpServletRequest and use in Controller-->
 <dependency>
@@ -61,7 +61,7 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
 </dependency>
 ```
 
-## If in your project you use swagger you should add below dependencies to use swagger and swagger config in your yml or properties and add the @bean in your swaggerConfig file
+### If in your project you use swagger you should add below dependencies to use swagger and swagger config in your yml or properties and add the @bean in your swaggerConfig file
 ```
 <!--It's for Swagger-->
 <dependency>
