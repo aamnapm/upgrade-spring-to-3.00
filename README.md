@@ -30,7 +30,8 @@ If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like 
     </configuration>
 </plugin>
 ```
-### If you use @Entity or @Table etc. you should change your import from import `javax.persistence.*;` to `jakarta.persistence.*;`.
+### If you use @Entity or @Table etc. you should change your import from import ```javax.persistence.*;``` to ```jakarta.persistence.*;```.
+```
 <!--It's for POJO etc. and use in Entity classes -->
 <dependency>
     <groupId>jakarta.persistence</groupId>
