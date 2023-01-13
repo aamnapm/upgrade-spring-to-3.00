@@ -1,7 +1,7 @@
 # upgrade-spring-to-3.00
 If you want use Spring 3.0.0 and Java 17 and Swagger your config should be like below. I wrote some note in below file please read  and do it
 
-# After a year i decided to update my project and use new version of dependencies, But I was injured :joy:	
+# After a year, I decided to update my project and use new version of dependencies, But I was injured :joy:	
 ### At first increase spring parent to 3.0.0
 ```
 <parent>
